@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-google-spreadsheet',
       options: {
-          spreadsheetId: '1BujMhjqqlo51HXFE7YyWf11579ADEv-aQRV_QerfzyE',
+          spreadsheetId: '1X6bgTkRNw_P-baC8efYJS8dQh2_qkBqSflUb85m5zeQ',
           worksheetTitle: 'sheet1',
           typePrefix: "GoogleSpreadsheet",
           credentials: JSON.parse(`${process.env.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS}`),
